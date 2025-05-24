@@ -1,0 +1,505 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "build": "next build",
+        "dev": "next dev --turbopack",
+        "start": "next start"
+      },
+      "dependencies": {
+        "@heroicons/react": "^2.2.0",
+        "@tailwindcss/forms": "^0.5.10",
+        "autoprefixer": "10.4.20",
+        "bcrypt": "^5.1.1",
+        "clsx": "^2.1.1",
+        "next": "latest",
+        "next-auth": "5.0.0-beta.25",
+        "postcss": "8.5.1",
+        "postgres": "^3.4.6",
+        "react": "latest",
+        "react-dom": "latest",
+        "tailwindcss": "3.4.17",
+        "typescript": "5.7.3",
+        "use-debounce": "^10.0.4",
+        "zod": "^3.25.17"
+      },
+      "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/node": "22.10.7",
+        "@types/react": "19.0.7",
+        "@types/react-dom": "19.0.3"
+      }
+    },
+    "prefix": "/Users/guodeyu/Desktop/code/nextjs-dashboard"
+  },
+  "2 warn pnpm": {
+    "message": "Ignoring broken lockfile at /Users/guodeyu/Desktop/code/nextjs-dashboard: Lockfile /Users/guodeyu/Desktop/code/nextjs-dashboard/pnpm-lock.yaml not compatible with current pnpm",
+    "prefix": "/Users/guodeyu/Desktop/code/nextjs-dashboard"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/guodeyu/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/guodeyu/Desktop/code/nextjs-dashboard/node_modules/.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@types%2Fbcrypt"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@heroicons%2Freact"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@tailwindcss%2Fforms"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/bcrypt"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/clsx"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/next"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/postgres"
+  },
+  "12 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/react"
+  },
+  "13 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/react-dom"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/next-auth"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/react-dom/19.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/react-dom",
+      "rawSpec": "19.0.3"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react-dom/19.0.3",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss/8.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "postcss",
+      "rawSpec": "8.5.1"
+    }
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/postcss/8.5.1",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "19 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/use-debounce"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/autoprefixer/10.4.20",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autoprefixer",
+      "rawSpec": "10.4.20"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/autoprefixer/10.4.20",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "22 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/zod"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/react/19.0.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/react",
+      "rawSpec": "19.0.7"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react/19.0.7",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "25 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/postcss/-/postcss-8.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/postcss/-/postcss-8.5.1.tgz"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/22.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/node",
+      "rawSpec": "22.10.7"
+    }
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/22.10.7",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react-dom/19.0.3",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tailwindcss/3.4.17",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tailwindcss",
+      "rawSpec": "3.4.17"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tailwindcss/3.4.17",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "32 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/@types/react/-/react-19.0.7.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@types/react/-/react-19.0.7.tgz"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/5.7.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "5.7.3"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/5.7.3",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/@types/node/-/node-22.10.7.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@types/node/-/node-22.10.7.tgz"
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tailwindcss/3.4.17",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/5.7.3",
+    "requester": "/Users/guodeyu/Desktop/code/nextjs-dashboard",
+    "status": "found_in_store"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@types%2Fbcrypt"
+  },
+  "39 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@heroicons%2Freact"
+  },
+  "40 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@tailwindcss%2Fforms"
+  },
+  "41 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/bcrypt"
+  },
+  "42 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/clsx"
+  },
+  "43 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/next"
+  },
+  "44 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/postgres"
+  },
+  "45 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/react"
+  },
+  "46 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/react-dom"
+  },
+  "47 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/next-auth"
+  },
+  "48 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/use-debounce"
+  },
+  "49 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/zod"
+  },
+  "50 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://registry.npmjs.org/postcss/-/postcss-8.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/postcss/-/postcss-8.5.1.tgz"
+  },
+  "51 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz"
+  },
+  "52 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://registry.npmjs.org/@types/react/-/react-19.0.7.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@types/react/-/react-19.0.7.tgz"
+  },
+  "53 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://registry.npmjs.org/@types/node/-/node-22.10.7.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@types/node/-/node-22.10.7.tgz"
+  },
+  "54 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@types%2Fbcrypt: Value of \"this\" must be of type URLSearchParams",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/@types%2Fbcrypt: Value of \"this\" must be of type URLSearchParams\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85447:19)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at runNextTicks (node:internal/process/task_queues:69:3)\n    at listOnTimeout (node:internal/timers:555:9)\n    at process.processTimers (node:internal/timers:529:7)"
+    }
+  }
+}
